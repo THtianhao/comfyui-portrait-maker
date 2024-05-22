@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-portrait-maker"
+description = "Nodes:RetainFace, FaceFusion, RatioMerge2Image, MaskMerge2Image, ReplaceBoxImg, ExpandMaskBox, FaceSkin, SkinRetouching, PortraitEnhancement, ..."
+version = "1.0.0"
+license = "LICENSE"
+dependencies = ["aliyun-python-sdk-core-v3==2.13.10", "opencv-python", "tensorflow-cpu", "tensorflow", "onnx", "onnxruntime", "modelscope", "scikit-image", "matplotlib", "insightface", "diffusers==0.18.2", "sentencepiece"]
+
+[project.urls]
+Repository = "https://github.com/THtianhao/ComfyUI-Portrait-Maker"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-Portrait-Maker"
+Icon = ""
